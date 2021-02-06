@@ -1,0 +1,57 @@
+.container{
+    margin: auto;
+    height: 40vw ;
+    width: 40vw;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: rgb(226, 204, 204) url('https://source.unsplash.com/1200x1200/?nature,water');
+    background-size: 100%;
+    background-blend-mode: darken;
+    /* opacity: 0.1; */
+    /* 'https://source.unsplash.com/1200x1200/?nature,water' */
+}
+#clockContainer{
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    height: 40vw ;
+    width: 40vw;
+    background: url('9.png') no-repeat;
+    background-size: 100%;
+    /* background-image: url(bg2.jpg) ; */
+}
+
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: #dacfd3;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.61%;
+    height: 24%;
+    top: 26%;
+    left: 49.17%;
+    /* opacity: 0; */
+    border-radius: 20px;
+}
+
+#minute{
+    width: 0.91%;
+    height: 31%;
+    top: 19%;
+    left: 49.523%;
+    border-radius: 15px;
+}
+
+#second{
+    width: 0.41%;
+    height: 39%;
+    top: 11%;
+    left: 49.75%;
+    /* opacity: 0; */
+    border-radius: 10px;
+}
